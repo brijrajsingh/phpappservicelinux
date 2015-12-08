@@ -4,9 +4,9 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 /*=========== Database Configuraiton ==========*/
 
-$db_host = 'localhost';
-$db_user = 'root';
-$db_pass = '';
+$db_host = '65.52.220.165';
+$db_user = 'mysqluser';
+$db_pass = 'password';
 $db_name = 'test';
 
 
