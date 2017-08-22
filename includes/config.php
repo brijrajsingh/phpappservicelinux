@@ -14,9 +14,9 @@ $db_port = 3306;
 $db_user = '';
 $db_pass = '';
 $db_name = 'products';*/
+echo env('MYSQLCONNSTR_defaultConnection');
 
 foreach ($_SERVER as $key => $value) {
-    echo $value;
     if (strpos($key, "MYSQLCONNSTR_defaultConnection") !== 0) {
         continue;
     }
