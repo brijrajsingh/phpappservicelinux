@@ -7,7 +7,7 @@
 
 try {
 	$db = new PDO(
-		"mysql:host=$db_host;dbname=$db_name;port=50769;charset=UTF8",
+		"mysql:host=$db_host;dbname=$db_name;port=$db_port;charset=UTF8",
 		$db_user,
 		$db_pass
 	);
