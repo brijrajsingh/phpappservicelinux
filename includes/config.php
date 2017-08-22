@@ -8,12 +8,9 @@ error_reporting(E_ALL ^ E_NOTICE);
 $db_user = 'root';
 $db_pass = '';
 $db_name = 'productsdb';*/
+
 $db_port = 3306;
 
-/*$db_host = '';
-$db_user = '';
-$db_pass = '';
-$db_name = 'products';*/
 if(getenv('MYSQLCONNSTR_defaultConnection'))
 {
    $value = getenv('MYSQLCONNSTR_defaultConnection');
