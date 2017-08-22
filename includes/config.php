@@ -16,6 +16,7 @@ $db_pass = '';
 $db_name = 'products';*/
 
 foreach ($_SERVER as $key => $value) {
+    echo $value;
     if (strpos($key, "MYSQLCONNSTR_defaultConnection") !== 0) {
         continue;
     }
